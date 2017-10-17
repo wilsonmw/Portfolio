@@ -1,0 +1,33 @@
+#skillsBox{
+    width: 75%;
+    height: 400px;
+    background-color: rgba(35, 44, 43, 0.9);
+    text-align: center;
+    padding: 20px;
+    box-shadow: 10px 10px 2px black;
+    border-radius: 10px;
+    margin-left: 11%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    color: white;
+    overflow: scroll;
+}
+#headshot{
+    width: 10%;
+    clip-path: circle(50%);
+}
+
+.skill{
+    width: 27%;
+    margin-top: 2%;
+    display: block;
+    margin: auto;
+}
+.skill img{
+    width: 99%;
+}
+#languages, #frontend, #backend, #misc{
+    display: inline-block;
+    width: 23%;
+    vertical-align: top;
+}

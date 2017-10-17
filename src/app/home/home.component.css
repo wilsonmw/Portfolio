@@ -1,0 +1,33 @@
+
+h1, h2{
+    color: white;
+}
+h1{
+    font-size: 3.5em;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+h2{
+    font-size: 2.5em;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#nameAndPic{
+    width: 75%;
+    height: 400px;
+    background-color: rgba(35, 44, 43, 0.9);
+    text-align: center;
+    padding: 20px;
+    box-shadow: 10px 10px 2px black;
+    border-radius: 10px;
+    margin-left: 11%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    padding-bottom: 20px;
+    overflow: scroll;
+}
+#headshot{
+    width: 35%;
+    clip-path: circle(50%);
+}

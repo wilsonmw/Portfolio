@@ -1,0 +1,27 @@
+#wrap{
+    text-align: center;
+    align-content: center;
+}
+#navbar{
+    width: 80%;
+    height: 30px;
+    background-color: rgba(35, 44, 43, 0.9);
+    text-align: center;
+    padding: 20px;
+    box-shadow: 10px 10px 2px black;
+    border-radius: 10px;
+    margin-top: 3%;
+    margin-left: 8%;
+    color: white;
+}
+a{
+    margin-left: 5.5%;
+    margin-right: 5.5%;
+    color: white;
+    font-size: 1.2em;
+}
+#wrap{
+    background-image: url("../assets/images/stucco.jpg");
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

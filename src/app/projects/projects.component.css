@@ -1,0 +1,32 @@
+#projectsBox{
+    width: 75%;
+    height: 400px;
+    background-color: rgba(35, 44, 43, 0.9);
+    text-align: center;
+    padding: 20px;
+    box-shadow: 10px 10px 2px black;
+    border-radius: 10px;
+    margin-left: 11%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    color: white;
+    overflow: scroll;
+}
+#headshot{
+    width: 10%;
+    clip-path: circle(50%);
+}
+.project{
+    width: 20%;
+    height: 250px;
+    overflow: scroll;
+    border: 1px solid black;
+    padding: 1%;
+    margin: 1%;
+    background-color: rgb(87, 84, 84);
+    box-shadow: 2px 2px 2px black;
+    display: inline-block;
+}
+.project img{
+    width: 95%;
+}
