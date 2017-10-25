@@ -3,26 +3,30 @@
     align-content: center;
 }
 #navbar{
-    width: 80%;
-    height: 40px;
+    width: 80vw;
+    height: 8vh;
     background-color: rgba(35, 44, 43, 0.9);
     text-align: center;
-    padding: 20px;
-    padding-top: 35px;
-    box-shadow: 10px 10px 2px black;
-    border-radius: 10px;
-    margin-top: 3%;
-    margin-left: 8%;
+    padding-top: 4vh;
+    box-shadow: 1vw 1vh 2px black;
+    border-radius: 2vh;
+    margin: auto;
+    margin-top: 3vh;
     color: white;
+    overflow: scroll;
 }
 a{
-    margin-left: 5.5%;
-    margin-right: 5.5%;
+    margin-left: 4.5vw;
+    margin-right: 4.5vw;
+    margin-top: 15vh;
     color: white;
-    font-size: 1.2em;
+    font-size: 2vw;
+    vertical-align: center;
 }
 #wrap{
     background-image: url("../assets/images/stucco.jpg");
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    min-height: 93vh;
+    margin: 0px;
 }

@@ -1,32 +1,33 @@
 #projectsBox{
-    width: 75%;
-    height: 500px;
+    width: 65vw;
+    height: 65vh;
     background-color: rgba(35, 44, 43, 0.9);
     text-align: center;
-    padding: 20px;
-    box-shadow: 10px 10px 2px black;
-    border-radius: 10px;
-    margin-left: 11%;
-    margin-top: 2%;
-    margin-bottom: 5%;
-    color: white;
+    padding: 2vh 2vw 2vh 2vw;
+    box-shadow: 1vw 1vh 2px black;
+    border-radius: 2vh;
+    margin: auto;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
     overflow: scroll;
+    color: white;
+    font-size: 1.8vw;
 }
 #headshot{
-    width: 10%;
+    width: 8vw;
     clip-path: circle(50%);
 }
 .project{
-    width: 20%;
-    height: 300px;
+    width: 13vw;
+    height: 40vh;
     overflow: scroll;
     border: 1px solid black;
-    padding: 1%;
-    margin: 1%;
+    padding: 1vh 1vw 1vh 1vw;
+    margin: .3vh .3vw .3vh .3vw;
     background-color: rgb(87, 84, 84);
-    box-shadow: 2px 2px 2px black;
+    box-shadow: .2vw .2vh 2px black;
     display: inline-block;
 }
 .project img{
-    width: 95%;
+    width: 12vw;
 }
