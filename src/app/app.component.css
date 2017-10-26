@@ -31,6 +31,40 @@
     }
 }
 
+@media only screen and (orientation: landscape){
+    #wrap{
+        text-align: center;
+        align-content: center;
+    }
+    #navbar{
+        width: 90vw;
+        height: 10vh;
+        background-color: rgba(35, 44, 43, 0.9);
+        text-align: center;
+        padding-top: 3vh;
+        box-shadow: 1vw 1vh 2px black;
+        border-radius: 2vh;
+        margin: auto;
+        margin-top: 3vh;
+        color: white;
+        overflow: scroll;
+    }
+    a{
+        margin-left: 2.5vw;
+        margin-right: 2.5vw;
+        color: white;
+        font-size: 4vw;
+    }
+    #wrap{
+        background-image: url("../assets/images/stucco.jpg");
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        min-height: 93vh;
+        margin: 0px;
+    }
+}
+
+
 
 @media only screen and (min-width:769px) and (max-width:1023px){
     #wrap{
