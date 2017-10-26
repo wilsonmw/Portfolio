@@ -1,31 +1,105 @@
-#contactBox{
-    width: 65vw;
-    height: 65vh;
-    background-color: rgba(35, 44, 43, 0.9);
-    text-align: center;
-    padding: 2vh 2vw 2vh 2vw;
-    box-shadow: 1vw 1vh 2px black;
-    border-radius: 2vh;
-    margin: auto;
-    margin-top: 2vh;
-    margin-bottom: 5vh;
-    overflow: scroll;
-    color: white;
-    font-size: 1.8vw;
-}
-#headshot{
-    width: 8vw;
-    clip-path: circle(50%);
-}
-img{
-    width: 5vw;
-}
-#ways{
-    width: 30vw;
-    text-align: right;
-    margin: auto;
+@media only screen and (max-width:768px){
+    #contactBox{
+        width: 65vw;
+        height: 65vh;
+        background-color: rgba(35, 44, 43, 0.9);
+        text-align: center;
+        padding: 2vh 2vw 2vh 2vw;
+        box-shadow: 1vw 1vh 2px black;
+        border-radius: 2vh;
+        margin: auto;
+        margin-top: 2vh;
+        margin-bottom: 5vh;
+        overflow: scroll;
+        color: white;
+        font-size: 4.5vw;
+    }
+    #headshot{
+        width: 15vw;
+        clip-path: circle(50%);
+    }
+    img{
+        width: 10vw;
+    }
+    #ways{
+        width: 60vw;
+        text-align: left;
+        margin: auto;
+    }
+    
+    #emailAddress{
+        color: white;
+    }
 }
 
-#emailAddress{
-    color: white;
+
+@media only screen and (min-width:769px) and (max-width:1023px){
+    #contactBox{
+        width: 65vw;
+        height: 65vh;
+        background-color: rgba(35, 44, 43, 0.9);
+        text-align: center;
+        padding: 2vh 2vw 2vh 2vw;
+        box-shadow: 1vw 1vh 2px black;
+        border-radius: 2vh;
+        margin: auto;
+        margin-top: 2vh;
+        margin-bottom: 5vh;
+        overflow: scroll;
+        color: white;
+        font-size: 3vw;
+    }
+    #headshot{
+        width: 15vw;
+        clip-path: circle(50%);
+    }
+    img{
+        width: 10vw;
+    }
+    #ways{
+        width: 60vw;
+        text-align: left;
+        margin: auto;
+    }
+    
+    #emailAddress{
+        color: white;
+    }
+}
+
+
+
+
+@media only screen and (min-width:1024px){
+    #contactBox{
+        width: 65vw;
+        height: 65vh;
+        background-color: rgba(35, 44, 43, 0.9);
+        text-align: center;
+        padding: 2vh 2vw 2vh 2vw;
+        box-shadow: 1vw 1vh 2px black;
+        border-radius: 2vh;
+        margin: auto;
+        margin-top: 2vh;
+        margin-bottom: 5vh;
+        overflow: scroll;
+        color: white;
+        font-size: 1.8vw;
+    }
+    #headshot{
+        width: 8vw;
+        clip-path: circle(50%);
+    }
+    img{
+        width: 5vw;
+    }
+    #ways{
+        width: 30vw;
+        text-align: left;
+        margin: auto;
+    }
+    
+    #emailAddress{
+        color: white;
+    }
 }

@@ -1,33 +1,111 @@
-#projectsBox{
-    width: 65vw;
-    height: 65vh;
-    background-color: rgba(35, 44, 43, 0.9);
-    text-align: center;
-    padding: 2vh 2vw 2vh 2vw;
-    box-shadow: 1vw 1vh 2px black;
-    border-radius: 2vh;
-    margin: auto;
-    margin-top: 2vh;
-    margin-bottom: 5vh;
-    overflow: scroll;
-    color: white;
-    font-size: 1.8vw;
+@media only screen and (max-width:768px){
+    #projectsBox{
+        width: 65vw;
+        height: 95vh;
+        background-color: rgba(35, 44, 43, 0.9);
+        text-align: center;
+        padding: 2vh 3vw 2vh 3vw;
+        box-shadow: 1vw 1vh 2px black;
+        border-radius: 2vh;
+        margin: auto;
+        margin-top: 2vh;
+        margin-bottom: 5vh;
+        overflow: scroll;
+        color: white;
+        font-size: 4.5vw;
+    }
+    #headshot{
+        width: 15vw;
+        clip-path: circle(50%);
+    }
+    .project{
+        width: 25vw;
+        height: 40vh;
+        overflow: scroll;
+        border: 1px solid black;
+        padding: 1vh 1vw 1vh 1vw;
+        margin: .3vh .3vw .3vh .3vw;
+        background-color: rgb(87, 84, 84);
+        box-shadow: .2vw .2vh 2px black;
+        display: inline-block;
+    }
+    .project img{
+        width: 20vw;
+    }
 }
-#headshot{
-    width: 8vw;
-    clip-path: circle(50%);
+
+
+@media only screen and (min-width:769px) and (max-width:1023px){
+    #projectsBox{
+        width: 65vw;
+        height: 95vh;
+        background-color: rgba(35, 44, 43, 0.9);
+        text-align: center;
+        padding: 2vh 3vw 2vh 3vw;
+        box-shadow: 1vw 1vh 2px black;
+        border-radius: 2vh;
+        margin: auto;
+        margin-top: 2vh;
+        margin-bottom: 5vh;
+        overflow: scroll;
+        color: white;
+        font-size: 3.0vw;
+    }
+    #headshot{
+        width: 15vw;
+        clip-path: circle(50%);
+    }
+    .project{
+        width: 25vw;
+        height: 40vh;
+        overflow: scroll;
+        border: 1px solid black;
+        padding: 1vh 1vw 1vh 1vw;
+        margin: .3vh .3vw .3vh .3vw;
+        background-color: rgb(87, 84, 84);
+        box-shadow: .2vw .2vh 2px black;
+        display: inline-block;
+    }
+    .project img{
+        width: 20vw;
+    }
 }
-.project{
-    width: 13vw;
-    height: 40vh;
-    overflow: scroll;
-    border: 1px solid black;
-    padding: 1vh 1vw 1vh 1vw;
-    margin: .3vh .3vw .3vh .3vw;
-    background-color: rgb(87, 84, 84);
-    box-shadow: .2vw .2vh 2px black;
-    display: inline-block;
-}
-.project img{
-    width: 12vw;
+
+
+
+
+@media only screen and (min-width:1024px){
+    #projectsBox{
+        width: 65vw;
+        height: 65vh;
+        background-color: rgba(35, 44, 43, 0.9);
+        text-align: center;
+        padding: 2vh 2vw 2vh 2vw;
+        box-shadow: 1vw 1vh 2px black;
+        border-radius: 2vh;
+        margin: auto;
+        margin-top: 2vh;
+        margin-bottom: 5vh;
+        overflow: scroll;
+        color: white;
+        font-size: 1.8vw;
+    }
+    #headshot{
+        width: 8vw;
+        clip-path: circle(50%);
+    }
+    .project{
+        width: 13vw;
+        height: 40vh;
+        overflow: scroll;
+        border: 1px solid black;
+        padding: 1vh 1vw 1vh 1vw;
+        margin: .3vh .3vw .3vh .3vw;
+        background-color: rgb(87, 84, 84);
+        box-shadow: .2vw .2vh 2px black;
+        display: inline-block;
+    }
+    .project img{
+        width: 12vw;
+    }
 }

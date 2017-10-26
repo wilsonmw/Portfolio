@@ -1,32 +1,102 @@
-#wrap{
-    text-align: center;
-    align-content: center;
+@media only screen and (max-width:768px){
+    #wrap{
+        text-align: center;
+        align-content: center;
+    }
+    #navbar{
+        width: 90vw;
+        height: 6vh;
+        background-color: rgba(35, 44, 43, 0.9);
+        text-align: center;
+        padding-top: 3vh;
+        box-shadow: 1vw 1vh 2px black;
+        border-radius: 2vh;
+        margin: auto;
+        margin-top: 3vh;
+        color: white;
+        overflow: scroll;
+    }
+    a{
+        margin-left: 2.5vw;
+        margin-right: 2.5vw;
+        color: white;
+        font-size: 4vw;
+    }
+    #wrap{
+        background-image: url("../assets/images/stucco.jpg");
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        min-height: 93vh;
+        margin: 0px;
+    }
 }
-#navbar{
-    width: 80vw;
-    height: 8vh;
-    background-color: rgba(35, 44, 43, 0.9);
-    text-align: center;
-    padding-top: 4vh;
-    box-shadow: 1vw 1vh 2px black;
-    border-radius: 2vh;
-    margin: auto;
-    margin-top: 3vh;
-    color: white;
-    overflow: scroll;
+
+
+@media only screen and (min-width:769px) and (max-width:1023px){
+    #wrap{
+        text-align: center;
+        align-content: center;
+    }
+    #navbar{
+        width: 80vw;
+        height: 6vh;
+        background-color: rgba(35, 44, 43, 0.9);
+        text-align: center;
+        padding-top: 3vh;
+        box-shadow: 1vw 1vh 2px black;
+        border-radius: 2vh;
+        margin: auto;
+        margin-top: 3vh;
+        color: white;
+        overflow: scroll;
+    }
+    a{
+        margin-left: 3.5vw;
+        margin-right: 3.5vw;
+        color: white;
+        font-size: 3vw;
+    }
+    #wrap{
+        background-image: url("../assets/images/stucco.jpg");
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        min-height: 93vh;
+        margin: 0px;
+    }
 }
-a{
-    margin-left: 4.5vw;
-    margin-right: 4.5vw;
-    margin-top: 15vh;
-    color: white;
-    font-size: 2vw;
-    vertical-align: center;
-}
-#wrap{
-    background-image: url("../assets/images/stucco.jpg");
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-    min-height: 93vh;
-    margin: 0px;
+
+
+
+@media only screen and (min-width:1024px){
+    #wrap{
+        text-align: center;
+        align-content: center;
+    }
+    #navbar{
+        width: 80vw;
+        height: 8vh;
+        background-color: rgba(35, 44, 43, 0.9);
+        text-align: center;
+        padding-top: 4vh;
+        box-shadow: 1vw 1vh 2px black;
+        border-radius: 2vh;
+        margin: auto;
+        margin-top: 3vh;
+        color: white;
+        overflow: scroll;
+    }
+    a{
+        margin-left: 4.5vw;
+        margin-right: 4.5vw;
+        margin-top: 15vh;
+        color: white;
+        font-size: 2vw;
+    }
+    #wrap{
+        background-image: url("../assets/images/stucco.jpg");
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        min-height: 93vh;
+        margin: 0px;
+    }
 }
